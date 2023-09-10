@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Super Calculadora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Super Calculadora</h1>
+
+      <div class="inputCont">
+        <label for="firstNumber">Primeiro Número (A)</label>
+        <input type="number" name="firstNumber" id="firstNumber" />
+        <label for="secondNumber">Segundo Número (B)</label>
+        <input type="number" name="secondNumber" id="secondNumber" />
+
+        <input
+          type="button"
+          value="Calcular"
+          onclick="calculate()"
+          id="buttonCalculate"
+        />
+      </div>
+    </header>
+
+    <main>
+      <div class="resultCont">
+        <p class="calculate">Soma</p>
+        <p id="resultSum" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Subtração A - B</p>
+        <p id="resultSub1" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Subtração B - A</p>
+        <p id="resultSub2" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Multiplicação</p>
+        <p id="resultMulti" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Divisão A/B</p>
+        <p id="resultDivisao1" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Divisão B/A</p>
+        <p id="resultDivisao2" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Potência de A na base B</p>
+        <p id="resultPotA" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Potência de B na base A</p>
+        <p id="resultPotB" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Raiz quadrada de A</p>
+        <p id="resultRaizA" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Raiz quadrada de B</p>
+        <p id="resultRaizB" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Fatorial de A</p>
+        <p id="resultFatorialA" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Fatorial de B</p>
+        <p id="resultFatorialB" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Porcentagem de A em relação a B</p>
+        <p id="resultPorcentA" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Porcentagem de B em relação a A</p>
+        <p id="resultPorcentB" class="result"></p>
+      </div>
+
+      <div class="resultCont">
+        <p class="calculate">Média</p>
+        <p id="resultMedia" class="result"></p>
+      </div>
+    </main>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>

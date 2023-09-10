@@ -1,0 +1,70 @@
+body {
+  max-width: 900px;
+  margin: 10px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(47, 47, 47);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom: 2px solid lightgray;
+}
+
+h1 {
+  text-align: center;
+  color: greenyellow;
+  margin-top: 0;
+}
+
+.inputCount {
+  display: flex;
+  justify-content: space-evenly; /*os elementos serão espaçados igualmente*/
+}
+
+label {
+  color: greenyellow;
+}
+
+#buttonCalculate {
+  border: none;
+  background-color: greenyellow;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-around;
+  background-color: rgb(60, 60, 60);
+  padding: 20px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.resultCont {
+  width: 100%;
+  max-width: 300x;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.calculate {
+  color: #6980d6;
+  text-align: center;
+}
+
+.result {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
